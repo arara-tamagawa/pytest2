@@ -1,6 +1,6 @@
 name: python-test
 
-on: [pull_request]
+on: [push]
 
 jobs:
   build:
