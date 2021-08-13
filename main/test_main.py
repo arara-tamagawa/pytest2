@@ -1,8 +1,8 @@
-from main import Car
+from main  import Car
 
 def test_add_01():
     car = Car()
-    assert car.car_display_price() == '10,000,000円'
+    assert car.car_display_price() == '20,000,000円'
 
 
 def test_add_02():
